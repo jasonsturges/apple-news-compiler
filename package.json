@@ -1,0 +1,19 @@
+{
+  "name": "apple-news-compiler",
+  "version": "0.9.0",
+  "description": "Apple News format compiler for optimized JSON article",
+  "main": "./src/index.js",
+  "author": "Jason Sturges",
+  "license": "MIT",
+  "homepage": "https://github.com/jasonsturges/apple-news-compiler#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonsturges/apple-news-compiler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonsturges/apple-news-compiler/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
