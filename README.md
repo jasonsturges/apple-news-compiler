@@ -21,3 +21,38 @@ const run = async () => {
 
 run();
 ```
+
+Original article.json
+
+```json
+{
+  "role": "title",
+  "text": "Title on Scrim",
+  "layout": "titleLayout",
+  "textStyle": "titleStyle"
+}
+```
+
+Inline will replace named references of `titleLayout` and `titleStyle` with object definitions:
+
+```json
+{
+  "role": "title",
+  "text": "Title on Scrim",
+  "layout": {
+    "columnStart": 0,
+    "columnSpan": 7,
+    "margin": {
+      "top": 50,
+      "bottom": 5
+    }
+  },
+  "textStyle": {
+    "textAlignment": "center",
+    "fontName": "HelveticaNeue-Bold",
+    "fontSize": 42,
+    "lineHeight": 50,
+    "textColor": "#EFEFEF"
+  }
+}
+```
