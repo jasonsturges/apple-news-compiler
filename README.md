@@ -122,7 +122,7 @@ Original article.json
 }
 ```
 
-In the example above, `titleStyle` is empty - no style was defined in the object.  Therefore, the resulting optimizaiton would remove `titleStyle` from the component's `textStyle` as well as the `titleStyle` from the `componentTextStyles`:
+In the example above, `titleStyle` is empty - no style was defined in the object.  Therefore, the resulting optimization would remove the component's `"textStyle": "titleStyle"` as well as the empty `titleStyle` from `componentTextStyles`:
 
 ```json
 "components": [
