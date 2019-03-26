@@ -1,6 +1,6 @@
 {
   "name": "apple-news-compiler",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Apple News format compiler for optimized JSON article",
   "main": "./src/index.js",
   "author": "Jason Sturges",
