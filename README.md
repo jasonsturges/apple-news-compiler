@@ -84,11 +84,18 @@ run();
 
 ## Remove Comments
 
-Purge any comments from from components, layouts, styles, or text styles that use either the following conventions:
+Purge any comments from components, layouts, styles, or text styles that use either the following conventions:
 
 ```json
 {
-  "//": "Comment example",
+  "//": "Comment example"
+}
+```
+
+Or:
+
+```json
+{
   "comment": "Comment example
 }
 ```
