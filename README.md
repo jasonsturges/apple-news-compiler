@@ -7,7 +7,7 @@ Replace all named component layouts, styles, and text styles by inlining object 
 
 Example:
 
-```
+```js
 const fs = require("fs");
 const anf = require("apple-news-compiler")
 
