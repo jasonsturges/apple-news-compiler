@@ -152,6 +152,6 @@ Or:
 
 ```json
 {
-  "comment": "Comment example
+  "comment": "Comment example"
 }
 ```
