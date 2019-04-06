@@ -7,7 +7,7 @@
 
 'use strict';
 
-const article = require("./lib/article")
+const article = require("./lib/article");
 
 module.exports = {
   article

@@ -9,15 +9,15 @@ Example:
 
 ```js
 const fs = require("fs");
-const anf = require("apple-news-compiler")
+const anf = require("apple-news-compiler");
 
 const run = async () => {
-  var article = JSON.parse(fs.readFileSync("article.json"), 'utf8');
+  const article = JSON.parse(fs.readFileSync("article.json"), 'utf8');
 
   anf.article.inline(article);
 
   console.log(JSON.stringify(article, null, 2));
-}
+};
 
 run();
 ```
@@ -68,15 +68,15 @@ Example:
 
 ```js
 const fs = require("fs");
-const anf = require("apple-news-compiler")
+const anf = require("apple-news-compiler");
 
 const run = async () => {
-  var article = JSON.parse(fs.readFileSync("article.json"), 'utf8');
+  const article = JSON.parse(fs.readFileSync("article.json"), 'utf8');
 
   anf.article.removeUnusedReferences(article);
 
   console.log(JSON.stringify(article, null, 2));
-}
+};
 
 run();
 ```
@@ -92,15 +92,15 @@ Example:
 
 ```js
 const fs = require("fs");
-const anf = require("apple-news-compiler")
+const anf = require("apple-news-compiler");
 
 const run = async () => {
-  var article = JSON.parse(fs.readFileSync("article.json"), 'utf8');
+  const article = JSON.parse(fs.readFileSync("article.json"), 'utf8');
 
   anf.article.removeEmptyDefinitions(article);
 
   console.log(JSON.stringify(article, null, 2));
-}
+};
 
 run();
 ```
